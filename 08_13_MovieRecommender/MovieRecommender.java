@@ -21,7 +21,7 @@ public class MovieRecommender {
                 System.out.println("You should watch 'Mad Max: Fury Road'.");
             }
          } else {
-            System.out.println("Do you like comedies? (yes/no)");
+            System.out.println("Do you like comedies? (yes/no):");
             String comedy = scan.nextLine();
             if (comedy.equalsIgnoreCase("yes")) {
 
